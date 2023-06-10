@@ -2,9 +2,9 @@
 
 //   First
 
-const User = {UserName : "kullanici_1" ,password : "5142"};
-const User_Id= prompt ("Kullanici adini giriniz :");
-const User_Pw = prompt ("Sifrenizi girin :");
+const User = {UserName : "kullanici_1" ,password : "5142"}
+const User_Id= prompt ("Kullanici adini giriniz :")
+const User_Pw = prompt ("Sifrenizi girin :")
 
 if (User_Id === User.UserName && User_Pw === User.password) {
   alert ("Sunucuya erisim saglanmıstır .")
@@ -14,8 +14,8 @@ if (User_Id === User.UserName && User_Pw === User.password) {
 
 //   Second
 
-const name = prompt("Adinizi ve Soyadinizi giriniz :");
-const yas = prompt ("Lutfen yasinizi giriniz :");
+const name = prompt("Adinizi ve Soyadinizi giriniz :")
+const yas = prompt ("Lutfen yasinizi giriniz :")
 
 let grup 
 
@@ -63,18 +63,18 @@ const entryName = prompt("Kullanici adinizi girin :")
 if (
   entryName === person.ad && person.credit >= 1 && person.yasakli === false
 ) {
-  console.log("Başarılı erişim!");
+  console.log("Başarılı erişim!")
 } else {
-  console.log("Giris basarisiz :");
+  console.log("Giris basarisiz :")
   if (entryName !== person.ad) {
-    console.log("Kullanici adi yanlis.");
+    console.log("Kullanici adi yanlis.")
   }
   if (person.credit < 1) {
-    console.log("Oturuma giris hak'ki tükenmis.");
+    console.log("Oturuma giris hak'ki tükenmis.")
   }
   if (person.yasakli) {
-    console.log("Yasakli kullanici.");
-  }
+    console.log("Yasakli kullanici.")
+  
 }
 
 
