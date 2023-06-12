@@ -30,7 +30,7 @@ if (yas >= 5 && yas <= 14) {
 } else {
   grup = "Yaslı"
 }
-// Name üzeri neden çizili anlamadım !!!
+
 console.log (`Adi ve Soyadi : ${name}, ${yas} yasinda ve ${grup} kategorisinde.`)
 
 //   Third
