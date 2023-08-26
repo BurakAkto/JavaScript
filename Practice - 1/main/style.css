@@ -1,0 +1,44 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: black;
+}
+
+#title {
+
+    color: rgb(243, 94, 9);
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+
+.inputText {
+
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.inputText span {
+
+    color: rgb(243, 94, 9);
+    font-size: large;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.clock {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#date {
+    color:rgb(243, 94, 9);
+
+    font-size: 30px;
+}
